@@ -1,37 +1,22 @@
 # turing
 
 #### 介绍
-homework recommendation
+homework recommendation  
+模型为双向GRU，历史作业取14天，双向补零5天
 
-#### 软件架构
-软件架构说明
+#### 模型日更
 
+    定时任务 模型更新
+    crontab -l
+    /data/zhangkl/turing_new/crontab_config_online
+    30 10 * * * nohup python3 -u /data/zhangkl/turing_new/handle.bgru_online.py >> /data/zhangkl/turing_new/online.log 2>&1 &
+    
 
-#### 安装教程
-
-1. xxxx
-2. xxxx
-3. xxxx
-
-#### 使用说明
-
-1. xxxx
-2. xxxx
-3. xxxx
-
-#### 参与贡献
-
-1. Fork 本仓库
-2. 新建 Feat_xxx 分支
-3. 提交代码
-4. 新建 Pull Request
-
-
-#### 码云特技
-
-1. 使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2. 码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3. 你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4. [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5. 码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6. 码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)# homework_recommendation
+#### 上线部署
+    机器
+    ubuntu@10.19.x.x:/data/turing/turing
+    ubuntu@10.19.x.x:/data/turing/turing
+    
+    定时任务 模型只保留最新五个
+    crontab -l
+    30 15 * * * nohup python -u /data/turing/timer_del_model.py >> /data/turing/timer_del_model.log 2>&1 &
