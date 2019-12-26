@@ -1,0 +1,409 @@
+17-12-2019 19:27:50 root:DEBUG:test cnt 0
+,error 'SimpleModel' object has no attribute 'style_fourteen_ph'
+17-12-2019 19:27:50 root:DEBUG:execept e :Traceback (most recent call last):
+  File "/Users/zhangkailin/zklcode/turing_new/handle.sum.63.py", line 438, in <module>
+    loss, acc = mol.train_with_dict(sess, data_)
+  File "/Users/zhangkailin/zklcode/turing_new/model_sum_63.py", line 435, in train_with_dict
+    feed_dict=self.get_train_feed_dict_with_dict(inps)
+  File "/Users/zhangkailin/zklcode/turing_new/model_sum_63.py", line 656, in get_train_feed_dict_with_dict
+    feed_dict[getattr(self, k)] = v
+AttributeError: 'SimpleModel' object has no attribute 'style_fourteen_ph'
+
+17-12-2019 19:29:27 root:DEBUG:test cnt 0
+,error 'SimpleModel' object has no attribute 'style_fourteen_ph'
+17-12-2019 19:29:27 root:DEBUG:execept e :Traceback (most recent call last):
+  File "/Users/zhangkailin/zklcode/turing_new/handle.sum.63.py", line 438, in <module>
+    loss, acc = mol.train_with_dict(sess, data_)
+  File "/Users/zhangkailin/zklcode/turing_new/model_sum_63.py", line 435, in train_with_dict
+    feed_dict=self.get_train_feed_dict_with_dict(inps)
+  File "/Users/zhangkailin/zklcode/turing_new/model_sum_63.py", line 656, in get_train_feed_dict_with_dict
+    feed_dict[getattr(self, k)] = v
+AttributeError: 'SimpleModel' object has no attribute 'style_fourteen_ph'
+
+17-12-2019 19:32:43 tensorflow:WARNING:Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+17-12-2019 19:32:44 tensorflow:WARNING:Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+17-12-2019 19:39:33 root:DEBUG:test cnt 0
+,error Cannot feed value of shape (128,) for Tensor 'Main_Inputs/style_fourteen_ph:0', which has shape '(?, ?)'
+17-12-2019 19:39:33 root:DEBUG:execept e :Traceback (most recent call last):
+  File "/Users/zhangkailin/zklcode/turing_new/handle.sum.63.py", line 438, in <module>
+    loss, acc = mol.train_with_dict(sess, data_)
+  File "/Users/zhangkailin/zklcode/turing_new/model_sum_63.py", line 435, in train_with_dict
+    feed_dict=self.get_train_feed_dict_with_dict(inps)
+  File "/Users/zhangkailin/anaconda3/envs/tf12/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 929, in run
+    run_metadata_ptr)
+  File "/Users/zhangkailin/anaconda3/envs/tf12/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1128, in _run
+    str(subfeed_t.get_shape())))
+ValueError: Cannot feed value of shape (128,) for Tensor 'Main_Inputs/style_fourteen_ph:0', which has shape '(?, ?)'
+
+17-12-2019 19:41:15 root:DEBUG:test cnt 0
+,error Cannot feed value of shape (128,) for Tensor 'Main_Inputs/style_fourteen_ph:0', which has shape '(?, ?)'
+17-12-2019 19:41:15 root:DEBUG:execept e :Traceback (most recent call last):
+  File "/Users/zhangkailin/zklcode/turing_new/handle.sum.63.py", line 438, in <module>
+    loss, acc = mol.train_with_dict(sess, data_)
+  File "/Users/zhangkailin/zklcode/turing_new/model_sum_63.py", line 435, in train_with_dict
+    feed_dict=self.get_train_feed_dict_with_dict(inps)
+  File "/Users/zhangkailin/anaconda3/envs/tf12/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 929, in run
+    run_metadata_ptr)
+  File "/Users/zhangkailin/anaconda3/envs/tf12/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1128, in _run
+    str(subfeed_t.get_shape())))
+ValueError: Cannot feed value of shape (128,) for Tensor 'Main_Inputs/style_fourteen_ph:0', which has shape '(?, ?)'
+
+17-12-2019 19:42:57 root:DEBUG:test cnt 0
+,error Cannot feed value of shape (128,) for Tensor 'Main_Inputs/style_fourteen_ph:0', which has shape '(?, ?)'
+17-12-2019 19:42:57 root:DEBUG:execept e :Traceback (most recent call last):
+  File "/Users/zhangkailin/zklcode/turing_new/handle.sum.63.py", line 438, in <module>
+    loss, acc = mol.train_with_dict(sess, data_)
+  File "/Users/zhangkailin/zklcode/turing_new/model_sum_63.py", line 435, in train_with_dict
+    feed_dict=self.get_train_feed_dict_with_dict(inps)
+  File "/Users/zhangkailin/anaconda3/envs/tf12/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 929, in run
+    run_metadata_ptr)
+  File "/Users/zhangkailin/anaconda3/envs/tf12/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1128, in _run
+    str(subfeed_t.get_shape())))
+ValueError: Cannot feed value of shape (128,) for Tensor 'Main_Inputs/style_fourteen_ph:0', which has shape '(?, ?)'
+
+17-12-2019 19:55:42 root:INFO:---train--- day:2019-09-02, epoches:0 iter: 1,loss_average:2.2271509170532227, accuracy_average:0.578125,loss:2.2271509170532227,acc:0.578125
+17-12-2019 19:57:25 root:INFO:---train--- day:2019-09-02, epoches:0 iter: 2,loss_average:2.095696806907654, accuracy_average:0.60546875,loss:1.964242696762085,acc:0.6328125
+17-12-2019 19:57:29 root:INFO:---train--- day:2019-09-02, epoches:0 iter: 3,loss_average:1.5590786933898926, accuracy_average:0.6536458333333334,loss:0.4858424663543701,acc:0.75
+17-12-2019 19:58:20 root:INFO:---train--- day:2019-09-02, epoches:1 iter: 4,loss_average:2.1452836394309998, accuracy_average:0.5494449026882648,loss:3.9038984775543213,acc:0.2368421107530594
+17-12-2019 19:58:36 root:INFO:---train--- day:2019-09-02, epoches:1 iter: 5,loss_average:1.71624203214742, accuracy_average:0.6395559221506119,loss:7.560301310149953e-05,acc:1.0
+17-12-2019 19:58:56 tensorflow:INFO:No assets to save.
+17-12-2019 19:58:56 tensorflow:INFO:No assets to write.
+17-12-2019 19:59:12 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/0/saved_model.pb
+17-12-2019 19:59:12 root:INFO:########################### TEST ###########################
+17-12-2019 20:01:04 root:INFO:---train--- day:2019-09-03, epoches:0 iter: 1,loss_average:2.9525153636932373, accuracy_average:0.6171875,loss:2.9525153636932373,acc:0.6171875
+17-12-2019 20:51:42 root:DEBUG:test cnt 0
+,error 'analysis_avg_times_ph'
+17-12-2019 20:51:42 root:DEBUG:execept e :Traceback (most recent call last):
+  File "/Users/zhangkailin/zklcode/turing_new/handle.sum.63.py", line 437, in <module>
+    data_ = prepare_data(data_pre)
+  File "/Users/zhangkailin/zklcode/turing_new/handle.sum.63.py", line 177, in prepare_data
+    resp[key] = [i[key] for i in data]
+  File "/Users/zhangkailin/zklcode/turing_new/handle.sum.63.py", line 177, in <listcomp>
+    resp[key] = [i[key] for i in data]
+KeyError: 'analysis_avg_times_ph'
+
+18-12-2019 10:04:31 tensorflow:INFO:No assets to save.
+18-12-2019 10:04:31 tensorflow:INFO:No assets to write.
+18-12-2019 10:04:47 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/1/saved_model.pb
+18-12-2019 10:04:48 root:INFO:########################### TEST ###########################
+18-12-2019 10:04:56 tensorflow:INFO:No assets to save.
+18-12-2019 10:04:56 tensorflow:INFO:No assets to write.
+18-12-2019 10:05:12 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/2/saved_model.pb
+18-12-2019 10:05:13 root:INFO:########################### TEST ###########################
+18-12-2019 10:05:22 tensorflow:INFO:No assets to save.
+18-12-2019 10:05:22 tensorflow:INFO:No assets to write.
+18-12-2019 10:05:38 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/3/saved_model.pb
+18-12-2019 10:05:38 root:INFO:########################### TEST ###########################
+18-12-2019 10:05:50 tensorflow:INFO:No assets to save.
+18-12-2019 10:05:50 tensorflow:INFO:No assets to write.
+18-12-2019 10:06:11 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/4/saved_model.pb
+18-12-2019 10:06:12 root:INFO:########################### TEST ###########################
+18-12-2019 10:06:23 tensorflow:INFO:No assets to save.
+18-12-2019 10:06:23 tensorflow:INFO:No assets to write.
+18-12-2019 10:06:40 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/5/saved_model.pb
+18-12-2019 10:06:41 root:INFO:########################### TEST ###########################
+18-12-2019 10:06:49 tensorflow:INFO:No assets to save.
+18-12-2019 10:06:49 tensorflow:INFO:No assets to write.
+18-12-2019 10:07:04 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/6/saved_model.pb
+18-12-2019 10:07:05 root:INFO:########################### TEST ###########################
+18-12-2019 10:07:12 tensorflow:INFO:No assets to save.
+18-12-2019 10:07:12 tensorflow:INFO:No assets to write.
+18-12-2019 10:07:32 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/7/saved_model.pb
+18-12-2019 10:07:33 root:INFO:########################### TEST ###########################
+18-12-2019 10:07:44 tensorflow:INFO:No assets to save.
+18-12-2019 10:07:44 tensorflow:INFO:No assets to write.
+18-12-2019 10:08:05 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/8/saved_model.pb
+18-12-2019 10:08:05 root:INFO:########################### TEST ###########################
+18-12-2019 10:08:22 tensorflow:INFO:No assets to save.
+18-12-2019 10:08:22 tensorflow:INFO:No assets to write.
+18-12-2019 10:08:42 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/9/saved_model.pb
+18-12-2019 10:08:42 root:INFO:########################### TEST ###########################
+18-12-2019 10:08:53 tensorflow:INFO:No assets to save.
+18-12-2019 10:08:53 tensorflow:INFO:No assets to write.
+18-12-2019 10:09:13 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/10/saved_model.pb
+18-12-2019 10:09:13 root:INFO:########################### TEST ###########################
+18-12-2019 10:09:42 tensorflow:INFO:No assets to save.
+18-12-2019 10:09:42 tensorflow:INFO:No assets to write.
+18-12-2019 10:10:01 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/11/saved_model.pb
+18-12-2019 10:10:01 root:INFO:########################### TEST ###########################
+18-12-2019 10:28:27 root:DEBUG:test cnt 0
+,error 'analysis_avg_times_ph'
+18-12-2019 10:28:27 root:DEBUG:execept e :Traceback (most recent call last):
+  File "/Users/zhangkailin/zklcode/turing_new/handle.sum.63.py", line 437, in <module>
+    data_ = prepare_data(data_pre)
+  File "/Users/zhangkailin/zklcode/turing_new/handle.sum.63.py", line 177, in prepare_data
+    resp[key] = [i[key] for i in data]
+  File "/Users/zhangkailin/zklcode/turing_new/handle.sum.63.py", line 177, in <listcomp>
+    resp[key] = [i[key] for i in data]
+KeyError: 'analysis_avg_times_ph'
+
+18-12-2019 10:37:16 tensorflow:WARNING:Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+18-12-2019 10:45:03 tensorflow:INFO:No assets to save.
+18-12-2019 10:45:03 tensorflow:INFO:No assets to write.
+18-12-2019 10:45:22 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/0/saved_model.pb
+18-12-2019 10:45:22 root:INFO:########################### TEST ###########################
+18-12-2019 10:45:38 tensorflow:INFO:No assets to save.
+18-12-2019 10:45:38 tensorflow:INFO:No assets to write.
+18-12-2019 10:45:56 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/1/saved_model.pb
+18-12-2019 10:45:57 root:INFO:########################### TEST ###########################
+18-12-2019 10:46:14 tensorflow:INFO:No assets to save.
+18-12-2019 10:46:14 tensorflow:INFO:No assets to write.
+18-12-2019 10:46:30 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/2/saved_model.pb
+18-12-2019 10:46:30 root:INFO:########################### TEST ###########################
+18-12-2019 10:46:46 tensorflow:INFO:No assets to save.
+18-12-2019 10:46:46 tensorflow:INFO:No assets to write.
+18-12-2019 10:47:03 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/3/saved_model.pb
+18-12-2019 10:47:03 root:INFO:########################### TEST ###########################
+18-12-2019 10:47:22 tensorflow:INFO:No assets to save.
+18-12-2019 10:47:22 tensorflow:INFO:No assets to write.
+18-12-2019 10:47:39 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/4/saved_model.pb
+18-12-2019 10:47:40 root:INFO:########################### TEST ###########################
+18-12-2019 10:47:56 tensorflow:INFO:No assets to save.
+18-12-2019 10:47:56 tensorflow:INFO:No assets to write.
+18-12-2019 10:48:12 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/5/saved_model.pb
+18-12-2019 10:48:12 root:INFO:########################### TEST ###########################
+18-12-2019 10:48:27 tensorflow:INFO:No assets to save.
+18-12-2019 10:48:27 tensorflow:INFO:No assets to write.
+18-12-2019 10:48:46 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/6/saved_model.pb
+18-12-2019 10:48:47 root:INFO:########################### TEST ###########################
+18-12-2019 10:49:07 tensorflow:INFO:No assets to save.
+18-12-2019 10:49:07 tensorflow:INFO:No assets to write.
+18-12-2019 10:49:23 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/7/saved_model.pb
+18-12-2019 10:49:23 root:INFO:########################### TEST ###########################
+18-12-2019 10:49:37 tensorflow:INFO:No assets to save.
+18-12-2019 10:49:37 tensorflow:INFO:No assets to write.
+18-12-2019 10:49:54 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/8/saved_model.pb
+18-12-2019 10:49:54 root:INFO:########################### TEST ###########################
+18-12-2019 10:50:17 tensorflow:INFO:No assets to save.
+18-12-2019 10:50:17 tensorflow:INFO:No assets to write.
+18-12-2019 10:50:34 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/9/saved_model.pb
+18-12-2019 10:50:35 root:INFO:########################### TEST ###########################
+18-12-2019 10:50:53 tensorflow:INFO:No assets to save.
+18-12-2019 10:50:53 tensorflow:INFO:No assets to write.
+18-12-2019 10:51:10 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/10/saved_model.pb
+18-12-2019 10:51:10 root:INFO:########################### TEST ###########################
+18-12-2019 10:51:29 tensorflow:INFO:No assets to save.
+18-12-2019 10:51:29 tensorflow:INFO:No assets to write.
+18-12-2019 10:52:00 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/11/saved_model.pb
+18-12-2019 10:52:01 root:INFO:########################### TEST ###########################
+18-12-2019 11:06:39 tensorflow:INFO:No assets to save.
+18-12-2019 11:06:39 tensorflow:INFO:No assets to write.
+18-12-2019 11:06:55 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/0/saved_model.pb
+18-12-2019 11:06:56 root:INFO:########################### TEST ###########################
+18-12-2019 11:15:20 tensorflow:INFO:No assets to save.
+18-12-2019 11:15:20 tensorflow:INFO:No assets to write.
+18-12-2019 11:15:36 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/1/saved_model.pb
+18-12-2019 11:15:37 root:INFO:########################### TEST ###########################
+18-12-2019 11:24:21 tensorflow:INFO:No assets to save.
+18-12-2019 11:24:21 tensorflow:INFO:No assets to write.
+18-12-2019 11:24:42 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/2/saved_model.pb
+18-12-2019 11:24:42 root:INFO:########################### TEST ###########################
+18-12-2019 11:34:01 tensorflow:INFO:Restoring parameters from /Users/zhangkailin/zklcode/turing_new/save_sum_63/model/ckpt_2
+18-12-2019 11:34:22 tensorflow:INFO:No assets to save.
+18-12-2019 11:34:22 tensorflow:INFO:No assets to write.
+18-12-2019 11:34:39 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/3/saved_model.pb
+18-12-2019 11:34:40 root:INFO:########################### TEST ###########################
+18-12-2019 14:09:49 tensorflow:INFO:Restoring parameters from /Users/zhangkailin/zklcode/turing_new/save_sum_63/model/ckpt_3
+18-12-2019 14:10:05 tensorflow:INFO:No assets to save.
+18-12-2019 14:10:05 tensorflow:INFO:No assets to write.
+18-12-2019 14:10:21 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/4/saved_model.pb
+18-12-2019 14:10:22 root:INFO:########################### TEST ###########################
+18-12-2019 14:10:29 tensorflow:INFO:No assets to save.
+18-12-2019 14:10:29 tensorflow:INFO:No assets to write.
+18-12-2019 14:10:45 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/5/saved_model.pb
+18-12-2019 14:10:45 root:INFO:########################### TEST ###########################
+18-12-2019 14:10:53 tensorflow:INFO:No assets to save.
+18-12-2019 14:10:53 tensorflow:INFO:No assets to write.
+18-12-2019 14:11:08 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/6/saved_model.pb
+18-12-2019 14:11:09 root:INFO:########################### TEST ###########################
+18-12-2019 14:11:16 tensorflow:INFO:No assets to save.
+18-12-2019 14:11:16 tensorflow:INFO:No assets to write.
+18-12-2019 14:11:32 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/7/saved_model.pb
+18-12-2019 14:11:33 root:INFO:########################### TEST ###########################
+18-12-2019 14:11:42 tensorflow:INFO:No assets to save.
+18-12-2019 14:11:42 tensorflow:INFO:No assets to write.
+18-12-2019 14:11:57 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/8/saved_model.pb
+18-12-2019 14:11:58 root:INFO:########################### TEST ###########################
+18-12-2019 14:12:06 tensorflow:INFO:No assets to save.
+18-12-2019 14:12:06 tensorflow:INFO:No assets to write.
+18-12-2019 14:12:21 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/9/saved_model.pb
+18-12-2019 14:12:22 root:INFO:########################### TEST ###########################
+18-12-2019 14:23:56 tensorflow:INFO:No assets to save.
+18-12-2019 14:23:56 tensorflow:INFO:No assets to write.
+18-12-2019 14:24:12 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/0/saved_model.pb
+18-12-2019 14:24:13 root:INFO:########################### TEST ###########################
+18-12-2019 14:42:04 tensorflow:INFO:No assets to save.
+18-12-2019 14:42:04 tensorflow:INFO:No assets to write.
+18-12-2019 14:42:22 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/1/saved_model.pb
+18-12-2019 14:42:23 root:INFO:########################### TEST ###########################
+18-12-2019 15:08:26 tensorflow:INFO:No assets to save.
+18-12-2019 15:08:26 tensorflow:INFO:No assets to write.
+18-12-2019 15:08:42 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/2/saved_model.pb
+18-12-2019 15:08:43 root:INFO:########################### TEST ###########################
+18-12-2019 15:25:49 tensorflow:INFO:No assets to save.
+18-12-2019 15:25:49 tensorflow:INFO:No assets to write.
+18-12-2019 15:26:06 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/3/saved_model.pb
+18-12-2019 15:26:06 root:INFO:########################### TEST ###########################
+18-12-2019 15:43:20 tensorflow:INFO:Restoring parameters from /Users/zhangkailin/zklcode/turing_new/save_sum_63/model/ckpt_3
+18-12-2019 15:56:29 root:INFO:---train--- day:2019-09-02, epoches:0 iter: 1,loss_average:4.223738193511963, accuracy_average:0.5078125,loss:4.223738193511963,acc:0.5078125
+18-12-2019 15:58:49 root:INFO:---train--- day:2019-09-02, epoches:0 iter: 2,loss_average:3.2677345275878906, accuracy_average:0.55078125,loss:2.3117308616638184,acc:0.59375
+18-12-2019 15:58:55 root:INFO:---train--- day:2019-09-02, epoches:0 iter: 3,loss_average:3.055938164393107, accuracy_average:0.3671875,loss:2.63234543800354,acc:0.0
+18-12-2019 15:59:50 root:INFO:---train--- day:2019-09-02, epoches:1 iter: 4,loss_average:3.4084895253181458, accuracy_average:0.3017064146697521,loss:4.466143608093262,acc:0.10526315867900848
+18-12-2019 16:00:19 root:INFO:---train--- day:2019-09-02, epoches:1 iter: 5,loss_average:2.726958323386498, accuracy_average:0.4413651317358017,loss:0.0008335156599059701,acc:1.0
+18-12-2019 16:00:42 tensorflow:INFO:No assets to save.
+18-12-2019 16:00:42 tensorflow:INFO:No assets to write.
+18-12-2019 16:01:00 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/0/saved_model.pb
+18-12-2019 16:01:00 root:INFO:########################### TEST ###########################
+18-12-2019 16:19:51 root:INFO:---train--- day:2019-09-03, epoches:0 iter: 1,loss_average:3.17048716545105, accuracy_average:0.453125,loss:3.17048716545105,acc:0.453125
+18-12-2019 16:22:26 root:INFO:---train--- day:2019-09-03, epoches:0 iter: 2,loss_average:2.2312551140785217, accuracy_average:0.52734375,loss:1.2920230627059937,acc:0.6015625
+18-12-2019 16:24:43 root:INFO:---train--- day:2019-09-03, epoches:0 iter: 3,loss_average:1.8908392985661824, accuracy_average:0.5677083333333334,loss:1.210007667541504,acc:0.6484375
+18-12-2019 16:28:04 root:INFO:---train--- day:2019-09-03, epoches:0 iter: 4,loss_average:2.111988812685013, accuracy_average:0.5077812522649765,loss:2.775437355041504,acc:0.328000009059906
+18-12-2019 16:30:45 root:INFO:---train--- day:2019-09-03, epoches:1 iter: 5,loss_average:2.932356286048889, accuracy_average:0.4062250018119812,loss:6.2138261795043945,acc:0.0
+18-12-2019 16:32:35 root:INFO:---train--- day:2019-09-03, epoches:1 iter: 6,loss_average:2.484651361902555, accuracy_average:0.4818541705608368,loss:0.24612674117088318,acc:0.8600000143051147
+18-12-2019 16:33:59 root:INFO:---train--- day:2019-09-03, epoches:1 iter: 7,loss_average:2.129701511020033, accuracy_average:0.5558750033378601,loss:2.4057248992903624e-06,acc:1.0
+18-12-2019 16:34:48 root:INFO:---train--- day:2019-09-03, epoches:1 iter: 8,loss_average:1.8634888221425285, accuracy_average:0.6113906279206276,loss:-0.0,acc:1.0
+18-12-2019 16:35:03 tensorflow:INFO:No assets to save.
+18-12-2019 16:35:03 tensorflow:INFO:No assets to write.
+18-12-2019 16:35:21 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/1/saved_model.pb
+18-12-2019 16:35:22 root:INFO:########################### TEST ###########################
+18-12-2019 16:59:26 root:INFO:---train--- day:2019-09-04, epoches:0 iter: 1,loss_average:3.518746852874756, accuracy_average:0.4765625,loss:3.518746852874756,acc:0.4765625
+18-12-2019 17:01:58 root:INFO:---train--- day:2019-09-04, epoches:0 iter: 2,loss_average:2.2933526039123535, accuracy_average:0.484375,loss:1.0679583549499512,acc:0.4921875
+18-12-2019 17:04:13 root:INFO:---train--- day:2019-09-04, epoches:0 iter: 3,loss_average:1.8935641050338745, accuracy_average:0.4791666666666667,loss:1.0939871072769165,acc:0.46875
+18-12-2019 17:06:37 root:INFO:---train--- day:2019-09-04, epoches:0 iter: 4,loss_average:1.7156309485435486, accuracy_average:0.5280257910490036,loss:1.1818314790725708,acc:0.6746031641960144
+18-12-2019 17:08:06 root:INFO:---train--- day:2019-09-04, epoches:1 iter: 5,loss_average:1.3764458149671555, accuracy_average:0.6208458304405212,loss:0.019705280661582947,acc:0.9921259880065918
+18-12-2019 17:09:32 root:INFO:---train--- day:2019-09-04, epoches:1 iter: 6,loss_average:1.147055121284211, accuracy_average:0.6840381920337677,loss:0.00010165286948904395,acc:1.0
+18-12-2019 17:10:56 root:INFO:---train--- day:2019-09-04, epoches:1 iter: 7,loss_average:0.9831916229287734, accuracy_average:0.7291755931718009,loss:1.0632796147547197e-05,acc:1.0
+18-12-2019 17:12:32 root:INFO:---train--- day:2019-09-04, epoches:1 iter: 8,loss_average:0.8602933497660388, accuracy_average:0.7630286440253258,loss:5.437626896309666e-06,acc:1.0
+18-12-2019 17:12:48 tensorflow:INFO:No assets to save.
+18-12-2019 17:12:48 tensorflow:INFO:No assets to write.
+18-12-2019 19:51:03 tensorflow:INFO:Restoring parameters from /Users/zhangkailin/zklcode/turing_new/save_sum_63/model/ckpt_2
+18-12-2019 19:51:13 tensorflow:INFO:No assets to save.
+18-12-2019 19:51:13 tensorflow:INFO:No assets to write.
+18-12-2019 19:51:29 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/3/saved_model.pb
+18-12-2019 19:51:29 root:INFO:########################### TEST ###########################
+18-12-2019 20:55:52 tensorflow:INFO:No assets to save.
+18-12-2019 20:55:52 tensorflow:INFO:No assets to write.
+18-12-2019 20:56:17 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/4/saved_model.pb
+18-12-2019 20:56:17 root:INFO:########################### TEST ###########################
+18-12-2019 20:56:25 tensorflow:INFO:No assets to save.
+18-12-2019 20:56:25 tensorflow:INFO:No assets to write.
+18-12-2019 21:56:28 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/5/saved_model.pb
+18-12-2019 21:56:29 root:INFO:########################### TEST ###########################
+18-12-2019 21:56:37 tensorflow:INFO:No assets to save.
+18-12-2019 21:56:37 tensorflow:INFO:No assets to write.
+18-12-2019 21:57:03 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/6/saved_model.pb
+18-12-2019 21:57:03 root:INFO:########################### TEST ###########################
+18-12-2019 21:57:11 tensorflow:INFO:No assets to save.
+18-12-2019 21:57:11 tensorflow:INFO:No assets to write.
+18-12-2019 23:02:49 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/7/saved_model.pb
+18-12-2019 23:02:50 root:INFO:########################### TEST ###########################
+18-12-2019 23:03:07 tensorflow:INFO:No assets to save.
+18-12-2019 23:03:07 tensorflow:INFO:No assets to write.
+18-12-2019 23:03:22 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/8/saved_model.pb
+18-12-2019 23:03:23 root:INFO:########################### TEST ###########################
+18-12-2019 23:03:31 tensorflow:INFO:No assets to save.
+18-12-2019 23:03:31 tensorflow:INFO:No assets to write.
+18-12-2019 23:03:47 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/9/saved_model.pb
+18-12-2019 23:03:47 root:INFO:########################### TEST ###########################
+19-12-2019 00:01:36 tensorflow:INFO:No assets to save.
+19-12-2019 00:01:36 tensorflow:INFO:No assets to write.
+19-12-2019 00:02:03 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/10/saved_model.pb
+19-12-2019 00:02:03 root:INFO:########################### TEST ###########################
+19-12-2019 00:02:12 tensorflow:INFO:No assets to save.
+19-12-2019 00:02:12 tensorflow:INFO:No assets to write.
+19-12-2019 00:58:58 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/11/saved_model.pb
+19-12-2019 00:58:58 root:INFO:########################### TEST ###########################
+19-12-2019 00:59:15 tensorflow:INFO:No assets to save.
+19-12-2019 00:59:15 tensorflow:INFO:No assets to write.
+19-12-2019 00:59:31 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/12/saved_model.pb
+19-12-2019 00:59:32 root:INFO:########################### TEST ###########################
+19-12-2019 00:59:41 tensorflow:INFO:No assets to save.
+19-12-2019 00:59:41 tensorflow:INFO:No assets to write.
+19-12-2019 02:01:30 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/13/saved_model.pb
+19-12-2019 02:01:31 root:INFO:########################### TEST ###########################
+19-12-2019 02:01:48 tensorflow:INFO:No assets to save.
+19-12-2019 02:01:48 tensorflow:INFO:No assets to write.
+19-12-2019 02:02:05 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/14/saved_model.pb
+19-12-2019 02:02:05 root:INFO:########################### TEST ###########################
+19-12-2019 03:03:33 tensorflow:INFO:No assets to save.
+19-12-2019 03:03:33 tensorflow:INFO:No assets to write.
+19-12-2019 03:03:59 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/15/saved_model.pb
+19-12-2019 03:04:00 root:INFO:########################### TEST ###########################
+19-12-2019 03:04:08 tensorflow:INFO:No assets to save.
+19-12-2019 03:04:08 tensorflow:INFO:No assets to write.
+19-12-2019 04:02:09 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/16/saved_model.pb
+19-12-2019 04:02:09 root:INFO:########################### TEST ###########################
+19-12-2019 04:02:37 tensorflow:INFO:No assets to save.
+19-12-2019 04:02:37 tensorflow:INFO:No assets to write.
+19-12-2019 04:02:53 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/17/saved_model.pb
+19-12-2019 04:02:54 root:INFO:########################### TEST ###########################
+19-12-2019 04:57:02 tensorflow:INFO:No assets to save.
+19-12-2019 04:57:02 tensorflow:INFO:No assets to write.
+19-12-2019 04:57:19 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/18/saved_model.pb
+19-12-2019 04:57:20 root:INFO:########################### TEST ###########################
+19-12-2019 04:57:40 tensorflow:INFO:No assets to save.
+19-12-2019 04:57:40 tensorflow:INFO:No assets to write.
+19-12-2019 06:04:32 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/19/saved_model.pb
+19-12-2019 06:04:35 root:INFO:########################### TEST ###########################
+19-12-2019 06:04:58 tensorflow:INFO:No assets to save.
+19-12-2019 06:04:58 tensorflow:INFO:No assets to write.
+19-12-2019 06:52:04 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/20/saved_model.pb
+19-12-2019 06:52:04 root:INFO:########################### TEST ###########################
+19-12-2019 06:52:23 tensorflow:INFO:No assets to save.
+19-12-2019 06:52:23 tensorflow:INFO:No assets to write.
+19-12-2019 06:52:40 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/21/saved_model.pb
+19-12-2019 06:52:40 root:INFO:########################### TEST ###########################
+19-12-2019 08:00:23 tensorflow:INFO:No assets to save.
+19-12-2019 08:00:23 tensorflow:INFO:No assets to write.
+19-12-2019 08:00:49 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/22/saved_model.pb
+19-12-2019 08:00:50 root:INFO:########################### TEST ###########################
+19-12-2019 08:01:09 tensorflow:INFO:No assets to save.
+19-12-2019 08:01:09 tensorflow:INFO:No assets to write.
+19-12-2019 09:00:34 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/23/saved_model.pb
+19-12-2019 09:00:35 root:INFO:########################### TEST ###########################
+19-12-2019 09:00:53 tensorflow:INFO:No assets to save.
+19-12-2019 09:00:53 tensorflow:INFO:No assets to write.
+19-12-2019 09:55:36 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/24/saved_model.pb
+19-12-2019 09:55:37 root:INFO:########################### TEST ###########################
+19-12-2019 09:56:02 tensorflow:INFO:No assets to save.
+19-12-2019 09:56:02 tensorflow:INFO:No assets to write.
+19-12-2019 09:56:21 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/25/saved_model.pb
+19-12-2019 09:56:21 root:INFO:########################### TEST ###########################
+19-12-2019 09:56:30 tensorflow:INFO:No assets to save.
+19-12-2019 09:56:30 tensorflow:INFO:No assets to write.
+19-12-2019 09:56:47 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/26/saved_model.pb
+19-12-2019 09:56:48 root:INFO:########################### TEST ###########################
+19-12-2019 09:57:09 tensorflow:INFO:No assets to save.
+19-12-2019 09:57:09 tensorflow:INFO:No assets to write.
+19-12-2019 09:57:27 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/27/saved_model.pb
+19-12-2019 09:57:27 root:INFO:########################### TEST ###########################
+19-12-2019 09:57:45 tensorflow:INFO:No assets to save.
+19-12-2019 09:57:45 tensorflow:INFO:No assets to write.
+19-12-2019 09:58:03 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/28/saved_model.pb
+19-12-2019 09:58:03 root:INFO:########################### TEST ###########################
+19-12-2019 09:58:24 tensorflow:INFO:No assets to save.
+19-12-2019 09:58:24 tensorflow:INFO:No assets to write.
+19-12-2019 09:58:41 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/29/saved_model.pb
+19-12-2019 09:58:41 root:INFO:########################### TEST ###########################
+19-12-2019 09:59:07 tensorflow:INFO:No assets to save.
+19-12-2019 09:59:07 tensorflow:INFO:No assets to write.
+19-12-2019 09:59:26 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/30/saved_model.pb
+19-12-2019 09:59:27 root:INFO:########################### TEST ###########################
+19-12-2019 09:59:35 tensorflow:INFO:No assets to save.
+19-12-2019 09:59:35 tensorflow:INFO:No assets to write.
+19-12-2019 09:59:52 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/31/saved_model.pb
+19-12-2019 09:59:53 root:INFO:########################### TEST ###########################
+19-12-2019 10:00:10 tensorflow:INFO:No assets to save.
+19-12-2019 10:00:10 tensorflow:INFO:No assets to write.
+19-12-2019 10:00:28 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/32/saved_model.pb
+19-12-2019 10:00:29 root:INFO:########################### TEST ###########################
+19-12-2019 10:00:45 tensorflow:INFO:No assets to save.
+19-12-2019 10:00:45 tensorflow:INFO:No assets to write.
+19-12-2019 10:01:02 tensorflow:INFO:SavedModel written to: /Users/zhangkailin/zklcode/turing_new/save_sum_63/serving/33/saved_model.pb
+19-12-2019 10:01:03 root:INFO:########################### TEST ###########################
+19-12-2019 10:01:19 tensorflow:INFO:No assets to save.
+19-12-2019 10:01:19 tensorflow:INFO:No assets to write.
+19-12-2019 11:27:50 tensorflow:INFO:Restoring parameters from /Users/zhangkailin/zklcode/turing_new/save_sum_63/model/ckpt_34
+19-12-2019 11:32:56 root:INFO:---train--- day:2019-10-05, epoches:0 iter: 1,loss_average:2.8782317638397217, accuracy_average:0.6875,loss:2.8782317638397217,acc:0.6875
+19-12-2019 11:37:45 root:INFO:---train--- day:2019-10-05, epoches:0 iter: 2,loss_average:2.518452525138855, accuracy_average:0.7265625,loss:2.1586732864379883,acc:0.765625
+19-12-2019 11:44:27 root:INFO:---train--- day:2019-10-05, epoches:0 iter: 3,loss_average:2.3884357611338296, accuracy_average:0.7265625,loss:2.1284022331237793,acc:0.7265625
